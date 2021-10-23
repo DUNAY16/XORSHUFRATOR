@@ -223,6 +223,7 @@
             this.radioButtonDecimal.TabStop = true;
             this.radioButtonDecimal.Text = "Decimal";
             this.radioButtonDecimal.UseVisualStyleBackColor = true;
+            this.radioButtonDecimal.CheckedChanged += new System.EventHandler(this.radioButtonDecimal_CheckedChanged);
             // 
             // radioButton2Binary
             // 
@@ -234,6 +235,7 @@
             this.radioButton2Binary.TabStop = true;
             this.radioButton2Binary.Text = "Binary";
             this.radioButton2Binary.UseVisualStyleBackColor = true;
+            this.radioButton2Binary.CheckedChanged += new System.EventHandler(this.radioButton2Binary_CheckedChanged);
             // 
             // radioButtonHEX
             // 

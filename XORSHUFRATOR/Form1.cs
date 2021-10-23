@@ -255,6 +255,15 @@ namespace XORSHUFRATOR
             }
         }
 
+        private void radioButton2Binary_CheckedChanged(object sender, EventArgs e)
+        {
+            HEX = false; Binary = true; Decimal = false;
+        }
+
+        private void radioButtonDecimal_CheckedChanged(object sender, EventArgs e)
+        {
+            HEX = false; Binary = false; Decimal = true;
+        }
 
         private void buttonClear1_Click(object sender, EventArgs e)
         {
