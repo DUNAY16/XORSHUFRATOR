@@ -170,8 +170,10 @@ namespace XORSHUFRATOR
 
         private void buttonClear_Click(object sender, EventArgs e)
         {
-            textBox_P.Text = "" ;
-            textBox_Key.Text = "" ;
+            textBox_P.Text = "Введіть значення";
+            textBox_Key.Text = "Введіть ключ";
+            textBox_P.ForeColor = Color.Gray;
+            textBox_Key.ForeColor = Color.Gray;
             textBox_C.Text = "" ;
             labelDecimalP.Visible = false; labelHEXP.Visible = false; labelBinaryP.Visible = false; labelDecimalKey.Visible = false; labelHEXKey.Visible = false; labelBinaryKey.Visible = false; labelDecimalC.Visible = false; labelHEXC.Visible = false; labelBinaryC.Visible = false;
         }
@@ -256,8 +258,10 @@ namespace XORSHUFRATOR
 
         private void buttonClear1_Click(object sender, EventArgs e)
         {
-            textBox_P1.Text = "";
-            textBox_Key1.Text = "";
+            textBox_P1.Text = "Введіть значення";
+            textBox_Key1.Text = "Введіть ключ";
+            textBox_P1.ForeColor = Color.Gray;
+            textBox_Key1.ForeColor = Color.Gray;
             textBox_C1.Text = "";
             labelDecimalP1.Visible = false; labelHEXP1.Visible = false; labelBinaryP1.Visible = false; labelDecimalKey1.Visible = false; labelHEXKey1.Visible = false; labelBinaryKey1.Visible = false; labelDecimalC1.Visible = false; labelHEXC1.Visible = false; labelBinaryC1.Visible = false;
         }
