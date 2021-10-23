@@ -381,7 +381,7 @@ namespace XORSHUFRATOR
 
                         labelDecimalKey1.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(textBox_Key1.Text, 10), 10);
                         labelHEXKey1.Text = "HEX = " + Convert.ToString(Convert.ToInt32(textBox_Key1.Text, 10), 16);
-                        labelBinaryKey1.Text = "Binary = " + Convert.ToString(Convert.ToInt32(textBox_Key1.Text, 2), 2);
+                        labelBinaryKey1.Text = "Binary = " + Convert.ToString(Convert.ToInt32(textBox_Key1.Text, 10), 2);
 
                         labelDecimalC1.Text = "Decimal = " + Convert.ToString(Convert.ToInt32(textBox_C1.Text, 10), 10);
                         labelHEXC1.Text = "HEX = " + Convert.ToString(Convert.ToInt32(textBox_C1.Text, 10), 16);
